@@ -55,7 +55,7 @@ class DriverSearchViewTest(TestCase):
                           password="Password123")
         Driver.objects.create_user(username="Ivan",
                                    license_number="ABC12345",
-                                   assword="pass")
+                                   password="pass")
         Driver.objects.create_user(username="Petro",
                                    license_number="DEF67890",
                                    password="pass")
